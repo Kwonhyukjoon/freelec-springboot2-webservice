@@ -2,26 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e3d276a-0cff-4b56-86a8-90bbbd1524ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/HelloResponseDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/domain/posts/PostsRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/HelloResponseDtoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/BaseTimeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/service/posts/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/PostsListResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/PostsResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/PostsUpdateRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-oauth.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/footer.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/layout/header.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-save.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/posts-update.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostsApiControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/IndexControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/domain/posts/Posts.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/domain/posts/Posts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/domain/posts/PostsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/domain/posts/PostsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/jojoldu/book/springboot/web/domain/posts/PostsRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/jojoldu/book/springboot/web/domain/posts/PostsRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.jojoldu.book.springboot.web.domain.posts.PostsRepositoryTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.jojoldu.book.springboot.web.domain.posts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.jojoldu.book.springboot.web.domain.posts.PostsRepositoryTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/Posts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/domain/posts/PostsRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/domain/posts/PostsRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +127,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.jojoldu.book.springboot.web" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\freelec-springboot2-webservice\src\main\resources\templates" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.PostsRepositoryTest.게시글저장_불러오기">
+  <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
       <module name="freelec-springboot2-webservice.main" />
@@ -125,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloControllerTest.helloDto가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="IndexControllerTest.메인페이지_로딩" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.HelloControllerTest.helloDto가_리턴된다&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.dto.IndexControllerTest.메인페이지_로딩&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -145,12 +165,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloControllerTest.hello가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsApiControllerTest.Posts_등록된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.HelloControllerTest.hello가_리턴된다&quot; --scan --scan" />
+        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.PostsApiControllerTest.Posts_등록된다&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -165,12 +185,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsApiControllerTest.Posts_수정된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.dto.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.PostsApiControllerTest.Posts_수정된다&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostsRepositoryTest.BaseTimeEntity_등록" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.domain.posts.PostsRepositoryTest.BaseTimeEntity_등록&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -207,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.PostsRepositoryTest.게시글저장_불러오기" />
-        <item itemvalue="Gradle.HelloControllerTest.helloDto가_리턴된다" />
-        <item itemvalue="Gradle.HelloResponseDtoTest.롬복_기능_테스트" />
-        <item itemvalue="Gradle.HelloControllerTest.hello가_리턴된다" />
+        <item itemvalue="Gradle.IndexControllerTest.메인페이지_로딩" />
+        <item itemvalue="Gradle.PostsRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle.PostsApiControllerTest.Posts_등록된다" />
+        <item itemvalue="Gradle.PostsRepositoryTest.게시글저장_불러오기" />
       </list>
     </recent_temporary>
   </component>
@@ -242,14 +282,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="간단한API" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Plugins" timestamp="1582781809810">
+    <state x="361" y="71" key="#Plugins" timestamp="1583124617690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1582781809810" />
+    <state x="361" y="71" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1583124617690" />
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1582779451278">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1582779451278" />
+    <state x="518" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583126049119">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="518" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583126049119" />
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583125870592">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1583125870592" />
     <state x="392" y="328" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582779926700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -270,22 +318,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="587" y="303" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1582777949494" />
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1582789923580">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1583207699558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582789923580" />
-    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1582789923579">
+    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583207699558" />
+    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1583207699557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582789923579" />
-    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1582789923579">
+    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583207699557" />
+    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1583207699557">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582789923579" />
-    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1582789923579">
+    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583207699557" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1583207699558">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582789923579" />
+    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583207699558" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582783269133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -310,13 +358,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582280354074" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1582783309165">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583124735548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582783309165" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582782965590">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583124735548" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583124590745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582782965590" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583124590745" />
   </component>
 </project>
