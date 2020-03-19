@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e3d276a-0cff-4b56-86a8-90bbbd1524ff" name="Default Changelist" comment="" />
+    <list default="true" id="8e3d276a-0cff-4b56-86a8-90bbbd1524ff" name="Default Changelist" comment="간단한API">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/LoginUserArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/domain/user/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/OAuthAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/SessionUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/web/dto/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/jojoldu/book/springboot/web/dto/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/com.jojoldu.book.springboot.web.dto.IndexControllerTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/com.jojoldu.book.springboot.web.dto.IndexControllerTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/com.jojoldu.book.springboot.web.dto.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/com.jojoldu.book.springboot.web.dto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-com.jojoldu.book.springboot.web.dto.IndexControllerTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-com.jojoldu.book.springboot.web.dto.IndexControllerTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostsApiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/PostsApiControllerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +80,17 @@
                 <item name="test" type="396b929e:GradleViewContributor$SourceSetNode" />
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="freelec-springboot2-webservice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="freelec-springboot2-webservice" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -67,6 +102,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -93,7 +129,7 @@
       <recent name="C:\Users\user\IdeaProjects\freelec-springboot2-webservice\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
+  <component name="RunManager" selected="Gradle.freelec-springboot2-webservice [test]">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.Application" />
       <module name="freelec-springboot2-webservice.main" />
@@ -187,33 +223,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="PostsRepositoryTest.게시글저장_불러오기" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="freelec-springboot2-webservice [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.jojoldu.book.springboot.web.domain.posts.PostsRepositoryTest.게시글저장_불러오기&quot;" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.freelec-springboot2-webservice [test]" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.IndexControllerTest.메인페이지_로딩" />
         <item itemvalue="Gradle.PostsRepositoryTest.BaseTimeEntity_등록" />
-        <item itemvalue="Application.Application" />
         <item itemvalue="Gradle.PostsApiControllerTest.Posts_등록된다" />
-        <item itemvalue="Gradle.PostsRepositoryTest.게시글저장_불러오기" />
       </list>
     </recent_temporary>
   </component>
@@ -256,10 +291,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="518" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1583126049119" />
-    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583125870592">
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1584074925818">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1583125870592" />
+    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1584074925818" />
     <state x="392" y="328" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1582779926700">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -268,10 +303,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="546" y="271" width="642" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1582779872317" />
-    <state x="197" y="12" key="CommitChangelistDialog2" timestamp="1582781507210">
+    <state x="709" y="77" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584081928975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="197" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582781507210" />
+    <state x="709" y="77" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584081928975" />
+    <state x="197" y="12" key="CommitChangelistDialog2" timestamp="1584075230093">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="197" y="12" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584075230093" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1582277074050">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -280,50 +319,50 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="587" y="303" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1582777949494" />
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom" timestamp="1583211522740">
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom" timestamp="1584613614507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583211522740" />
-    <state width="1493" height="226" key="GridCell.Tab.0.center" timestamp="1583211522740">
+    <state width="1493" height="124" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584613614507" />
+    <state width="1493" height="124" key="GridCell.Tab.0.center" timestamp="1584613614507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583211522740" />
-    <state width="1493" height="226" key="GridCell.Tab.0.left" timestamp="1583211522740">
+    <state width="1493" height="124" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584613614507" />
+    <state width="1493" height="124" key="GridCell.Tab.0.left" timestamp="1584613614507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583211522740" />
-    <state width="1493" height="226" key="GridCell.Tab.0.right" timestamp="1583211522740">
+    <state width="1493" height="124" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584613614507" />
+    <state width="1493" height="124" key="GridCell.Tab.0.right" timestamp="1584613614507">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="226" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583211522740" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582783269133">
+    <state width="1493" height="124" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584613614507" />
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1584074499443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582783269133" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582783269132">
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584074499443" />
+    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1584074499442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582783269132" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582783269132">
+    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584074499442" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1584074499442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582783269132" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582783269132">
+    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584074499442" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1584074499442">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582783269132" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1582782404760">
+    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584074499442" />
+    <state x="277" y="54" key="SettingsEditor" timestamp="1583818932731">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582782404760" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583818932731" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1582280354074">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582280354074" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1583124735548">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584076096491">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583124735548" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584076096491" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1583124590745">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
